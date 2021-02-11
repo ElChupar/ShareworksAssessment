@@ -2,7 +2,7 @@
 
 ## Description
 I assume that Shareworks is interviewing multiple candidates for their data team, so I wanted to do something beyond what was asked. 
-* I used R to request data from the API. 
+* I used R to request data from the API (https://511.alberta.ca/help/endpoint/winterroads). 
 * I wrote a new MS Access Database file. 
 * I created a semi - normalized database schema to reduce the row count as opposed to a CSV.
 * Using the ROBDC library in R, I wrote tables and stored data into the Access Database.
@@ -15,6 +15,9 @@ I assume that Shareworks is interviewing multiple candidates for their data team
   * Can you provide a visualization showcasing the different conditions experienced by different parts of the province?
 * The bonus question was answered at the bottom of my R code.
 My R code, PowerBI dashboard, and my populate Access Database will all be available to download.
+
+## Important Note
+Question three asks me to identify areas which have bad conditions. Because I did not believe there is a "bad" condition type, the question is very subjective. I chose to include everything except "Bare wheel paths", "Bare Dry", and "No Report" in my definition of bad conditions. My rationale for this was based on The Alberta 511 website (https://511.alberta.ca/about/tutorial).
 
 ## Libraries 
 
