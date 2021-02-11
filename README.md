@@ -1,4 +1,3 @@
-theme: jekyll-theme-hacker
 # Shareworks Interview Technical Assessment 
 
 ## Description
