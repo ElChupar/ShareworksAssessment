@@ -4,7 +4,7 @@
 I assume that Shareworks is interviewing multiple candidates for their data team, so I wanted to do something beyond what was asked. Please read below to understand the process I followed to complete this assessment, and/or watch the video I made to show my work (PENDING URL).
 * I used R to request data from the API (https://511.alberta.ca/help/endpoint/winterroads). 
 * I wrote a new MS Access Database file. 
-* I created a semi - normalized database schema to reduce the row count as opposed to a CSV.
+* I created a semi-normalized database schema (this is because an ERD will have fewer rows compared to a single view file such as a csv). 
 * Using the ROBDC library in R, I wrote tables and stored data into the Access Database.
 * I create functions to answer the first three questions asked by Shareworks:
   * What is the percentage of locations with good visibility?
