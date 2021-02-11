@@ -1,7 +1,7 @@
 # Shareworks Interview Technical Assessment 
 
 ## Description
-I assume that Shareworks is interviewing multiple candidates for their data team, so I wanted to do something beyond what was asked. Please read below to understand the process I followed to complete this assessment, and/or watch the video I made to show my work (PENDING URL).
+I assume that Shareworks is interviewing multiple candidates for their data team, so I wanted to do something beyond what was asked. Please read below to understand the process I followed to complete this assessment, and/or watch the video I made to show my work (https://youtu.be/TFIjQl53bLE).
 * I used R to request data from the API (https://511.alberta.ca/help/endpoint/winterroads). 
 * I wrote a new MS Access Database file. 
 * I created a semi-normalized database schema (this is because an ERD will have fewer rows compared to a single view file such as a csv). 
