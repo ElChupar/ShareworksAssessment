@@ -1,19 +1,19 @@
-#############################################
-# Shareworks Interview Technical Assessment #
-#############################################
+# Shareworks Interview Technical Assessment 
 
-#############
-# Libraries #
-#############
+# Libraries 
+
+```r
 library(httr)
 library(jsonlite)
 library(RODBC)
 library(gepaf)
 library(anytime)
 library(tidyverse)
-#############
-# Functions #
-#############
+```
+
+# Functions 
+
+```r
 GetCurrentWinterRoadConditionsAB <- function(language="en")
 {
   url <- "https://511.alberta.ca/api/v2/get/winterroads"
@@ -171,12 +171,12 @@ GetRoadTables <- function(road.condition.obj)
   roads.df <- data.frame(id, locationDescription, areaName, roadwayName, stringsAsFactors = FALSE)
   return(list(road.coordinates.df, roads.df))
 }
-
-########
-# Code #
-########
+```
 
 
+# Code
+
+```r
 # Get data from API
 road.condition.obj <- GetCurrentWinterRoadConditionsAB()
 
@@ -196,7 +196,7 @@ AreasWithBadConditions(road.condition.obj, c("No Report", "Bare wheel paths", "B
   # Save and analyze historical data in addition to traffic data, and collision data to improve road safety.
   # Determine which roads are in need of safety improvements. 
   # Determine if the risk associated with each road is environment or driver based. Improve roads accordingly
-
+  ```r
 
 
 
