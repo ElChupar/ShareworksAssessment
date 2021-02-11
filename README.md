@@ -1,7 +1,7 @@
 # Shareworks Interview Technical Assessment 
 
 ## Description
-I assume that Shareworks is interviewing multiple candidates for their data team, so I wanted to do something beyond what was asked. 
+I assume that Shareworks is interviewing multiple candidates for their data team, so I wanted to do something beyond what was asked. Please read below to understand the process I followed to complete this assessment, and/or watch the video I made to show my work (PENDING URL).
 * I used R to request data from the API (https://511.alberta.ca/help/endpoint/winterroads). 
 * I wrote a new MS Access Database file. 
 * I created a semi - normalized database schema to reduce the row count as opposed to a CSV.
