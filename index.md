@@ -1,6 +1,22 @@
 # Shareworks Interview Technical Assessment 
 
-# Libraries 
+## Description
+I assume that Shareworks is interviewing multiple candidates for their data team, so I wanted to do something beyond what was asked. 
+* I used R to request data from the API. 
+* I wrote a new MS Access Database file. 
+* I created a semi - normalized database schema to reduce the row count as opposed to a CSV.
+* Using the ROBDC library in R, I wrote tables and stored data into the Access Database.
+* I create functions to answer the first three questions asked by Shareworks:
+  * What is the percentage of locations with good visibility?
+  * Which areas of the province are experiencing poor visibility?
+  * Which areas have bad conditions? 
+* I next connected the access database to a PowerBI file. I opted to use PowerBI over leaflet / ggplot for time sake.
+* I created a dashboard to visually represent my answers to the previous questions as well as the remaining question:
+  * Can you provide a visualization showcasing the different conditions experienced by different parts of the province?
+* The bonus question was answered at the bottom of my R code.
+My R code, PowerBI dashboard, and my populate Access Database will all be available to download.
+
+## Libraries 
 
 ```r
 library(httr)
@@ -11,7 +27,7 @@ library(anytime)
 library(tidyverse)
 ```
 
-# Functions 
+## Functions 
 
 ```r
 GetCurrentWinterRoadConditionsAB <- function(language="en")
@@ -174,7 +190,7 @@ GetRoadTables <- function(road.condition.obj)
 ```
 
 
-# Code
+## Code
 
 ```r
 # Get data from API
